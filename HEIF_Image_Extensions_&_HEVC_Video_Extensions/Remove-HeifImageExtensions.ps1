@@ -12,7 +12,7 @@ If ($HeifAppxBundle) {
 
 } Else {
     
-    Write-Host "The HEIF Image Extensions Microsoft Store Package hass Not been Provisioned on this System" -ForegroundColor Yellow
+    Write-Host "The HEIF Image Extensions Microsoft Store Package has Not been Provisioned on this System" -ForegroundColor Yellow
 
 }
 
