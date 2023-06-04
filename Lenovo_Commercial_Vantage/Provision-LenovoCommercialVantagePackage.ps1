@@ -20,11 +20,11 @@ If (!$LenovoVantage) {
 
         Add-AppxProvisionedPackage -Online -PackagePath "$($PSScriptRoot)\E046963F.LenovoSettingsforEnterprise_10.2305.30.0_neutral_~_k1h2ywk1493x8.Msixbundle" -SkipLicense -ErrorAction SilentlyContinue
        
-        Write-Host "The Lenovo Commercial Vantage Store Package been Installed on this System" -ForegroundColor Green
+        Write-Host "The Lenovo Commercial Vantage Microsft Store Package been Installed on this System" -ForegroundColor Green
 
 } Else {
     
-    Write-Host "The Lenovo Commercial Vantage Store Microsoft Store Package is already Installed on this System" -ForegroundColor Yellow
+    Write-Host "The Lenovo Commercial Vantage Microsoft Store Package is already Installed on this System" -ForegroundColor Yellow
 
 }
 
