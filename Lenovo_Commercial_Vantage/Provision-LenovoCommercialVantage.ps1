@@ -31,7 +31,7 @@ $MsVcLibs = Get-AppxProvisionedPackage -Online -ErrorAction SilentlyContinue | W
 
 $MsNetRuntime = Get-AppxProvisionedPackage -Online -ErrorAction SilentlyContinue | Where-Object {$_.PackageName -eq "Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe"}
 
-$MsNetFramework =  Get-AppxProvisionedPackage -Online -ErrorAction SilentlyContinue | Where-Object {$_.PackageName -like "Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe"}
+$MsNetFramework =  Get-AppxProvisionedPackage -Online -ErrorAction SilentlyContinue | Where-Object {$_.PackageName -eq "Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe"}
 
 If ($MsVcLibs -and $MsNetRuntime -and $MsNetFramework) {
 ok
