@@ -8,11 +8,11 @@ If (!$LenovoVantage) {
 
         Add-AppxPackage -Path "$($PSScriptRoot)\E046963F.LenovoSettingsforEnterprise_10.2305.30.0_neutral_~_k1h2ywk1493x8.Msixbundle" -DependencyPath $Dependencies -Confirm:$False -ErrorAction SilentlyContinue
        
-        Write-Host "The Lenovo Commercial Vantage Store App been Installed to this System" -ForegroundColor Green
+        Write-Host "The Lenovo Commercial Vantage Microsoft Store App been Installed to this System" -ForegroundColor Green
 
 } Else {
     
-    Write-Host "The Lenovo Commercial Vantage Store Microsoft Store App is already Installed on this System" -ForegroundColor Yellow
+    Write-Host "The Lenovo Commercial Vantage Microsoft Store App is already Installed on this System" -ForegroundColor Yellow
 
 }
 
