@@ -36,6 +36,6 @@ If ($LenovoUserApp) {
 
 } Else {
     
-    Write-Host "The Lenovo Commercial Vantage Store Microsoft Store App is Not Installed under this User Account" -ForegroundColor Yellow
+    Write-Host "The Lenovo Commercial Vantage Microsoft Store App is Not Installed under this User Account" -ForegroundColor Yellow
 
 }
