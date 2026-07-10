@@ -1,5 +1,5 @@
 
-Remove-XboxPackages:
+<b><u>Remove-XboxPackages</u></b>:
 
 Download the "<b>Remove-XboxPackages.ps1</b>" PowerShell Script and Run as Admin to Uninstall All XBox Appx Bundles, Packages, etc.
 <br /><br />
